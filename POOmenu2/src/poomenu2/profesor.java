@@ -8,4 +8,12 @@ public class profesor {
         this.nombre = nombre;
         this.materia = materia;
     }
+    
+    public String verNombre(){
+        return this.nombre;
+    }
+    
+    public String verMateria(){
+        return this.materia;
+    }
 }

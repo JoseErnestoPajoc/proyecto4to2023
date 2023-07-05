@@ -3,7 +3,7 @@ package poomenu2;
 import java.util.Scanner;
 
 public class POOmenu2 {
-
+    //cometario hecho en el salón
     static profesor misMaestros[] = new profesor[10];
     static int contador = 0;
 

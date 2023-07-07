@@ -25,10 +25,29 @@ public class POOmenu2 {
                 System.out.println("--------Los datos son------");
                 verTodos();
             } else if (op == 3) {
-                System.out.println("Programa finalizado");
+                System.out.println("--------Buscar profesor---------");
+                System.out.println("Ingrese el nombre: ");
+                Scanner teclado = new Scanner(System.in);
+                String nombre = teclado.nextLine();
+                System.out.println(verProfesor(nombre));
             } else {
                 System.out.println("Opcion incorrecta");
             }
+        }
+    }
+
+    static public String verProfesor(String nombre) {
+        int posicion = -1;
+        for (int i = 0; i < 2; i++) {
+            if (misMaestros[i].verNombre().equals(nombre) && misMaestros != null) {
+                posicion = i;
+                break;
+            }
+        }
+        if (posicion != -1) {
+            return "Materia: " + misMaestros[posicion].verMateria();
+        } else {
+            return "Profesor no encontrado";
         }
     }
 

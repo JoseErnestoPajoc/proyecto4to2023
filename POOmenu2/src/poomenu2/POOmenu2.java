@@ -1,5 +1,5 @@
 package poomenu2;
-//prueba esto se cambio en la nube
+//quitando los cambios
 import java.util.Scanner;
 
 public class POOmenu2 {

@@ -38,11 +38,14 @@ public class POOmenu2 {
 
     static public String verProfesor(String nombre) {
         int posicion = -1;
-        for (int i = 0; i < 2; i++) {
-            if (misMaestros[i].verNombre().equals(nombre) && misMaestros != null) {
-                posicion = i;
-                break;
+        for (int i = 0; i < 10; i++) {
+            if (misMaestros[i] != null) {
+                if (misMaestros[i].verNombre().equals(nombre)) {
+                    posicion = i;
+                    break;
+                }
             }
+
         }
         if (posicion != -1) {
             return "Materia: " + misMaestros[posicion].verMateria();

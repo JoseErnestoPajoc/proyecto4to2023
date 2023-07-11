@@ -1,5 +1,5 @@
 package poomenu2;
-
+//este codigo se hizo en el colegio
 import java.util.Scanner;
 
 public class POOmenu2 {

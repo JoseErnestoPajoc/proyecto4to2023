@@ -1,5 +1,5 @@
 package poomenu2;
-
+//prueba
 import java.util.Scanner;
 
 public class POOmenu2 {

@@ -12,7 +12,7 @@ public class POOmenu2 {
         Scanner entrada = new Scanner(System.in);
 
         while (op != 4) {
-            System.out.println("|        MENU        |");
+            System.out.println("|        MENU1        |");
             System.out.println("1. Crear profesor");
             System.out.println("2. Ver profesores");
             System.out.println("3. Ver profesor");
